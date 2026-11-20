@@ -49,7 +49,7 @@ h1, h2, h3, p { margin-top: 0; }
 .menu { display: flex; align-items: center; gap: 26px; }
 .menu a { font-weight: 600; font-size: .92rem; padding: 4px 0; border-bottom: 2px solid transparent; }
 .menu a:not(.btn):hover, .menu a.active { color: var(--red); border-color: var(--red); }
-.menu .btn { color: var(--white); border-bottom: 2px solid var(--red); }
+.menu .btn { padding: 8px 20px; font-size: .85rem; color: var(--white); border-bottom: 2px solid var(--red); }
 .burger { display: none; width: 44px; height: 44px; border: 0; background: none; cursor: pointer; }
 .burger span { display: block; width: 24px; height: 3px; margin: 5px auto; background: var(--ink); transition: transform .25s, opacity .25s; }
 .burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
